@@ -2,7 +2,7 @@
 Async - Await test
 */
 
-// las funciones async devuelven una promesa
+// las funciones async devuelven promesas
 
 const getName = () => {
   return new Promise((resolve, reject) => {
