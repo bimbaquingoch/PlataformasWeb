@@ -1,30 +1,15 @@
 // red promesas
-// las primesas son objetos que reciben 2 argumentos, uno que verifica
+// las promesas son objetos que reciben 2 argumentos, uno que verifica
 // si se ha resuelto la promesa y otro para cuando se rechaza la promesa
 const empleados = [
-  {
-    id: 1,
-    nombre: "Jean",
-  },
-  {
-    id: 2,
-    nombre: "Armin",
-  },
-  {
-    id: 3,
-    nombre: "Connie",
-  },
+  { id: 1, nombre: "Jean" },
+  { id: 2, nombre: "Armin" },
+  { id: 3, nombre: "Connie" },
 ];
 
 let salarios = [
-  {
-    id: 1,
-    salario: 800,
-  },
-  {
-    id: 2,
-    salario: 900,
-  },
+  { id: 1, salario: 800 },
+  { id: 2, salario: 900 },
 ];
 
 const getEmpleado = (id) => {
@@ -57,11 +42,14 @@ const getSalario = (empleado) => {
 
 getEmpleado(3)
   .then((empleado) => {
+    // llama a la funcion y devuelve el resolve de la promesa
     return getSalario(empleado);
   })
   .then((response) => {
     console.log(`${response.nombre} es de ${response.salario}`);
   })
   .catch((err) => {
+    // el catch funciona para capturar los errores, en este caso
+    // los reject de las promesas
     console.error(err);
   });
