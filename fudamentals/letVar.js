@@ -16,4 +16,6 @@ console.log(`valor final de i: ${i}`);
 for (let j = 0; j < 5; j++) {
   console.log(`j: ${j}`);
 }
-console.log(`valor de j: ${j}`);
+// here have an error because j is defined
+// only in the for
+// console.log(`valor de j: ${j}`);
