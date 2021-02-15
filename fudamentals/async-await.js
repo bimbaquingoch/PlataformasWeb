@@ -2,16 +2,10 @@
 Async - Await test
 */
 
-// let getName = async () => {
-//   throws = new Error("DB is emty");
-//   return "Chino";
-// };
-
-// async function returns a promise
+// las funciones async devuelven una promesa
 
 const getName = () => {
   return new Promise((resolve, reject) => {
-    // time out function
     setTimeout(() => {
       resolve("Chino");
     }, 3000);
@@ -22,18 +16,22 @@ const getName = () => {
 // async function
 
 const sayHello = async () => {
+  // await detiene la ejecución hasta que la promsea sea resuelta
+  // para utilizar await hay que declarar una funcion con async
   const name = await getName();
   return `Hi ${name}, this is sayHello function`;
 };
 
 sayHello()
   .then((message) => {
-    console.log(message); // if the promise is resolve
+    console.log(message); // imprime el mensaje si la promesa se resuelve
   })
   .catch((err) => {
-    console.error(`algo salió mal ${err}`); // promise is not resolve
+    console.error(`algo salió mal ${err}`); // caso contrario muestra un error
   });
 
-// await function it's save inside async function
-// this print a promise object
+// await sabe que lo que está esperando es una promesa
+// cuando no hay errores, entonces la promesa devuelve el resolve
+
+// resultado del resolve
 console.log(getName());
