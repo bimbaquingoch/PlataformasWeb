@@ -36,13 +36,15 @@ const conversacion = (nombre, veces, uncallback) => {
 // proceso inicial
 console.log("Inicio del proceso");
 
+// llamado a la función recursiva que evita que caigamos en el callbackHell
 hola("chino", (nombre) => {
   conversacion(nombre, 3, () => {
     console.log("proceso terminado");
   });
 });
 
-// esto es un callback HELL
+// te presento al callbackHell, el código empieza a ser más horizontal
+// y poco legible, eso es un callbackHELL
 
 // hola("Bryan", (nombre) => {
 //   hablar(() => {
