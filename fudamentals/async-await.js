@@ -15,7 +15,7 @@ const getName = () => {
     setTimeout(() => {
       resolve("Chino");
     }, 3000);
-    reject("uy! algo salió mal");
+    // reject("uy! algo salió mal");
   });
 };
 
@@ -33,3 +33,7 @@ sayHello()
   .catch((err) => {
     console.error(`algo salió mal ${err}`); // promise is not resolve
   });
+
+// await function it's save inside async function
+// this print a promise object
+console.log(getName());
