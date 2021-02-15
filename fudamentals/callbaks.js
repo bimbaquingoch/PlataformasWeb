@@ -1,3 +1,8 @@
+// red callbaks
+// son funciones que como parametro reciben otra funcion
+// para que de esta forma al ejecutar, la función que se recibe
+// se a ejecutada
+
 const suma = (num1, num2) => {
   return num1 + num2;
 };

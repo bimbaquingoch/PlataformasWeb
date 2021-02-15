@@ -1,3 +1,6 @@
+// red promesas
+// las primesas son objetos que reciben 2 argumentos, uno que verifica
+// si se ha resuelto la promesa y otro para cuando se rechaza la promesa
 const empleados = [
   {
     id: 1,
