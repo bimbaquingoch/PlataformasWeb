@@ -1,0 +1,36 @@
+{
+  "name": "multiplicar",
+  "version": "1.0.0",
+  "description": "esto es una app en Nodejs para mostar en consola tablas de multiplicar",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "yargs"
+  ],
+  "author": "Bryan Imbaquingo <bryan_3871@hotmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "colors": "^1.4.0",
+    "yargs": "^16.2.0"
+  },
+  "dependencies": {
+    "ansi-regex": "^5.0.0",
+    "ansi-styles": "^4.3.0",
+    "cliui": "^7.0.4",
+    "color-convert": "^2.0.1",
+    "color-name": "^1.1.4",
+    "emoji-regex": "^8.0.0",
+    "escalade": "^3.1.1",
+    "get-caller-file": "^2.0.5",
+    "is-fullwidth-code-point": "^3.0.0",
+    "require-directory": "^2.1.1",
+    "string-width": "^4.2.0",
+    "strip-ansi": "^6.0.0",
+    "y18n": "^5.0.5",
+    "wrap-ansi": "^7.0.0",
+    "yargs-parser": "^20.2.5"
+  }
+}
