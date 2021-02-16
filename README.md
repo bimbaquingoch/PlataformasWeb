@@ -4,24 +4,28 @@
 
 ### Comandos basicos
 
+### Inicializa el proyecto en npm, donde llenaremos con la informacion que nos pida
+
 ```
 npm init
 ```
 
-### Inicializa el proyecto en npm, donde llenaremos con la informacion que nos pida
+### Inicializa el proyecto en npm pero aquí llena todos los campos por defecto
 
 ```
 npm init -y
 ```
 
-### Inicializa el proyecto en npm pero aquí llena todos los campos por defecto
+### De manera global en nuestro ordenador llena estos campos con la informacion que le damos de esta manera y no es necesario llenar estos campos cuando ejecutemos npm init
 
 ```
 npm set init.author.name "Pepito Perez"
 npm set init.author.email "pepitoPrz@gmail.com"
 ```
 
-### De manera global en nuestro ordenador llena estos campos con la informacion que le damos de esta manera y no es necesario llenar estos campos cuando ejecutemos npm init
+##### ejemplo
+
+### Instala un paquete
 
 ##### ejemplo
 
@@ -29,28 +33,59 @@ npm set init.author.email "pepitoPrz@gmail.com"
 npm i rm-message
 ```
 
-### Instala un paquete
+#### Diferentes tipos de instalación
+
+| comando | funcion |
+| --save-dev| devDependencies |
+| -S | abrebación del comando anterior |
+| -D | instala el paquete como dependencias de desarrllo |
+| -O | instala el pauqete como una dependencia opcional para el proyecto |
+| -f | instala el paquete como una dependencia que debe ir estrictamente en el proyecto |
+
+### Instala la ultima version del paquete
 
 ```
 npm i name-package@lastest
 ```
 
-### Instala la ultima version del paquete
+### Muesta todos los paquetes instalados dentro del proyecto
 
 ```
 npm list
 ```
 
-### Muesta todos los paquetes instalados dentro del proyecto
+### Este comando lista tadas las dependencias globales que estan instaladas
 
 ```
-npm outdate
+npm list -g --depth 0
 ```
 
 ### Muestra todos los paquetes que estan desactualizados
 
 ```
-npm udpdate
+npm outdate
 ```
 
 ### Actualiza los paquetes
+
+```
+npm udpdate
+```
+
+### Desinstala el paquete que ya no queremos utilizar en el proyecto
+
+```
+npm unistall name-package
+```
+
+### Permite conectar nuestro proyecto de npm con la cuenta de NPM, esto nos ayuda a publicar paquetes npm
+
+```
+npm adduser
+```
+
+### Despues de conectar nuestro proyecto con nuestra cuenta de npm, con este comando podemos publicar pauqetes en la cuenta
+
+```
+npm publish
+```
