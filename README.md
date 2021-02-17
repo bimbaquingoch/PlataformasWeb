@@ -35,12 +35,13 @@ npm i rm-message
 
 #### Diferentes tipos de instalación
 
-| comando | funcion |
-| --save-dev| devDependencies |
-| -S | abrebación del comando anterior |
-| -D | instala el paquete como dependencias de desarrllo |
-| -O | instala el pauqete como una dependencia opcional para el proyecto |
-| -f | instala el paquete como una dependencia que debe ir estrictamente en el proyecto |
+| comando    | funcion                                                                          |
+| ---------- | -------------------------------------------------------------------------------- |
+| --save-dev | devDependencies                                                                  |
+| -S         | abrebación del comando anterior                                                  |
+| -D         | instala el paquete como dependencias de desarrllo                                |
+| -O         | instala el pauqete como una dependencia opcional para el proyecto                |
+| -f         | instala el paquete como una dependencia que debe ir estrictamente en el proyecto |
 
 ### Instala la ultima version del paquete
 
