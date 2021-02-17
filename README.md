@@ -90,3 +90,5 @@ npm adduser
 ```
 npm publish
 ```
+
+## [README syntax](https://pandao.github.io/editor.md/en.html)
