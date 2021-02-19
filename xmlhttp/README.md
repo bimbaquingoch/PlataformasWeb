@@ -1,15 +1,23 @@
 # XMLHttpRequest
 
-## Es un objeto de JS que permite hacer peticiones web, a un API o a un servicio en la nube, también funciona con ftp y archivos
-
 ## [Rick and Morty Api](https://rickandmortyapi.com/api/character/)
 
-## fetchData
+## para mas informacion ir a ./src/utils/fetchData.js
 
-#### Recibe la url de la API donde se crea una instancia de XMLHttpRequest que llama a la URL y recibe 3 parámetros
+### XMLHttpRequest con callback
 
-##### el primero
+```
+npm run callback
+```
 
-> GET, PUT, POST, DELETE,etc.
+### XMLHttpRequest con promises
 
-##### el segundo es la url y el tercer valor es para que se maneje de manera asincrona, por defecto no es necesario colocarlo en true porque por defecto lo coloca en true
+```
+npm run promise
+```
+
+### XMLHttpRequest con async y await
+
+```
+npm run async
+```
