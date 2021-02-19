@@ -1,8 +1,8 @@
 # XMLHttpRequest
 
-## [Rick and Morty Api](https://rickandmortyapi.com/api/character/)
+## [Rick and Morty Api Documentation](https://rickandmortyapi.com/documentation)
 
-## para mas informacion ir a ./src/utils/fetchData.js
+## para mas informacion ir a [fetchData.js](https://github.com/bimbaquingoch/PlataformasWeb/blob/master/xmlhttp/src/utils/fetchData.js)
 
 ### XMLHttpRequest con callback
 
