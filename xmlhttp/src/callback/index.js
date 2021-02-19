@@ -1,3 +1,5 @@
+// a este no le importamos el fetchData de utils porque la funcion recibe callback
+// y el de utils solo recibe como parametro el API
 import { XMLHttpRequest } from "xmlhttprequest";
 
 const API = "https://rickandmortyapi.com/api/character/";
