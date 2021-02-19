@@ -8,7 +8,4 @@
 
 #### Recibe la url de la API donde se crea una instancia de XMLHttpRequest que llama a la URL y recibe 3 parámetros
 
-> GET
-> PUT
-> POST
-> DELETE,etc.
+> GET, PUT, POST, DELETE,etc.
